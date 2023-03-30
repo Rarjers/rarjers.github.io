@@ -1,0 +1,57 @@
+@media (max-width: 720px) {
+    #first_video_track {
+        width: 100%;
+        object-fit: fill;
+    }
+    form > input {
+        height: 35px;
+        margin: 7px 0;
+    }
+    .block_form {
+        margin-right: 20px;
+    }
+    .block_header_text > h1 {
+        font-size: 7vw;
+    }
+    .block_header_text > p {
+        font-size: 3.2vw;
+    }
+    form > p {
+        font-size: 3vw;
+    }
+}
+@media (max-width: 550px) {
+    .wrapp_block_product {
+        grid-template-columns: 381px;
+        grid-template-rows: 243px 364px;
+    }
+    .img_product > img {
+        margin: 0 -17px;
+    }
+    .block_form {
+        margin: 0 auto;
+    }
+}
+@media (max-width: 500px) {
+    .img_product > img {
+        margin: 0;
+        max-width: 340px;
+    }
+    form > p, button {
+        font-size: 3vw;
+    }
+    .img_product {
+        margin: 0 auto;
+    }
+}
+@media (max-width: 420px) {
+    .block_header_text > p {
+        font-size: 3.7vw;
+    }
+    .block_header_text > h1 {
+        font-size: 9vw;
+    }
+    form > p, button {
+        font-size: 3.5vw;
+    }
+}
