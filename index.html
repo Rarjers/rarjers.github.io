@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/adaptVideoLand.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="block_video_but_skip">
+		<div class="icon_skip_video">
+			<p class="skip">Skip video <span></span></p>
+		</div>
+        <video id="first_video_track" autoplay="autoplay" playsinline muted="muted">
+            <source src="assets/mainVideo.mp4" type='video/mp4; codecs="H.264"'/>
+            <source src="assets/mainVideo.webm" type='video/webm; codecs="vp8, vorbis"'/>
+
+        </video>
+    </div>
+    <section id="main_contend_visib">
+        <div class="wrapp_background_animation">
+			<section class="wrapper">
+				<div id="stars"></div>
+				<div id="stars2"></div>
+				<div id="stars3"></div>
+			</section>
+			<div id="title">
+				<span></span>
+				<br>
+				<span></span>
+			</div>
+		</div>
+        <div class="container">
+            <div class="block_header_text">
+                <h1>Congratulations</h1>
+                <p>You have won your Samsung The Freestyle</p>
+            </div>
+            <div class="wrapp_block_product">
+                <div class="img_product">
+                    <img src="assets/mainProduct.png" alt="product">
+                </div>
+                <div class="block_form">
+                    <form action="">
+						<p>Fill out the form to receive a gift</p>
+                        <input type="text" placeholder="Name" required>
+                        <input type="text" placeholder="Surname" required>
+                        <input id="inputNamberPhone" type="text" placeholder="Phone" required>
+                        <input type="text" placeholder="E-mail" required>
+                        <button id="buttonSendForm">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/jquer-lib.js"></script>
+    <script src="assets/main.js"></script>
+</body>
+</html>
