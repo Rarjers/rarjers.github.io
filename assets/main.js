@@ -9,12 +9,12 @@ $(document).ready(function(){
     });
 
     // Turn off video at the touch of a button
-    $('.icon_skip_video').on('click', function(){
-        $('.block_video_but_skip').fadeOut(1000, function(){
-            $('#first_video_track').remove();
-            $('#main_contend_visib').fadeIn(1000);
-        })
-    })
+    // $('.icon_skip_video').on('click', function(){
+    //     $('.block_video_but_skip').fadeOut(1000, function(){
+    //         $('#first_video_track').remove();
+    //         $('#main_contend_visib').fadeIn(1000);
+    //     })
+    // })
 
     
     const funcChecksPhone = () => {
